@@ -10,12 +10,22 @@ public class fatorial {
 
         System.out.println("Digite um numero: ");
         x = scan.nextInt();
-
+        
+        //Criando contador
+        
         contador = x;
 
+        //Função de repetição
+        
         while (contador > 0) {
 
+            //Fatorando valor
+            
             soma = soma * contador;
+            
+            //Diminuição do valor
+            
+            
             --contador;
 
         }
