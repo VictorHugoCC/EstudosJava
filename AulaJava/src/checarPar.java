@@ -29,6 +29,6 @@ public class checarPar {
                 cont++;
             }
         }
-        System.out.println("Quantia de numeros pares emtre  " + a + " e " + b + " é de: " + cont);
+        System.out.println("Quantia de numeros pares entre  " + a + " e " + b + " é de: " + cont);
     }
 }
