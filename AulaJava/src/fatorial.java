@@ -1,34 +1,25 @@
-package macaco;
+package estudos;
 
 import java.util.Scanner;
 
 public class fatorial {
+
     public static void main(String[] args) {
-        int x, soma = 1, contador;
+        int i, a, soma = 1, fatorial = 1;
 
-        Scanner scan = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite um numero: ");
-        x = scan.nextInt();
-        
-        //Criando contador
-        
-        contador = x;
+        System.out.println("diginte um numero");
+        a = scanner.nextInt();
 
-        //Função de repetição
-        
-        while (contador > 0) {
+        for (i = 1; i < a; i++) {
 
-            //Fatorando valor
-            
-            soma = soma * contador;
-            
-            //Diminuição do valor
-            
-            
-            --contador;
+            fatorial = fatorial * i;
 
         }
-        System.out.println("Fatorial do numero " + x + " é = " + soma);
+
+        System.out.println("FATORIAL" + fatorial);
+
     }
+
 }
