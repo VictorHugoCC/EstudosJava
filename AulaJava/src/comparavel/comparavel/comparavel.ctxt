@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=comparavel
+comment1.params=numero
+comment1.target=comparavel(int)
+comment2.params=numero
+comment2.target=boolean\ maiorOuIgual(int)
+comment3.params=numero
+comment3.target=boolean\ menorOuIgual(int)
+comment4.params=numero
+comment4.target=boolean\ diferenteDe(int)
+comment5.params=numero
+comment5.target=void\ setValor(int)
+comment6.params=
+comment6.target=int\ getValor()
+numComments=7
